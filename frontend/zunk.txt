@@ -1,0 +1,2712 @@
+
+
+                            {/* <button className="relative overflow-hidden px-6 py-1 border border-black text-xl rounded-full bg-black border-none text-white size-14 flex items-center justify-center group">
+                                <span className="inline-block transition-transform duration-500 translate-y-0 opacity-100 group-hover:-translate-y-full group-hover:opacity-0">
+                                    500
+                                </span>
+                                <span className="absolute inset-0 flex items-center justify-center translate-y-full opacity-0 transition-transform duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                                    15
+                                </span>
+                            </button> */}
+
+                            {/* <button className="relative overflow-hidden px-6 py-1 border border-black text-xl rounded-full bg-black border-none text-white size-14 flex items-center justify-center">
+                                <span
+                                    className="absolute animate-slide-infinite"
+                                    style={{
+                                        display: "inline-block",
+                                        animationTimingFunction: "linear",
+                                        animationDuration: "2s",
+                                    }}
+                                >
+                                    500
+                                </span>
+                            </button> */}
+
+                            {/* 
+                            <button className="relative overflow-hidden px-6 py-1 border border-black text-xl rounded-full bg-black border-none text-white size-14 flex items-center justify-center group">
+                                <span className="inline-block transition-transform duration-500 translate-y-0 opacity-100 group-hover:-translate-y-full group-hover:opacity-0">
+                                    500
+                                </span>
+                                <span className="absolute inset-0 flex items-center justify-center translate-y-full opacity-0 transition-transform duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                                    15
+                                </span>
+                            </button> */}
+
+                            {/* <AnimatedButton
+                                text="500"
+                                className="text-xl rounded-full bg-black border-none text-white size-14 flex items-center justify-center"
+                            />
+                            <AnimatedButton
+                                text="Satisfied Client"
+                                className="border-none"
+                            /> */}
+                        {/* <div className={cn("w-full", "relative group")}>
+                            <div className="w-full items-center gap-5 text-xl flex group-hover:transition-all group-hover:duration-500 group-hover:-translate-y-full group-hover:opacity-0">
+                                <p className="bg-black size-14 font-medium rounded-full text-center text-white flex items-center justify-center">
+                                    15
+                                </p>
+                                <p className="text-slate-500">Website Awards</p>
+                            </div>
+                            <div className="absolute inset-0 flex items-center gap-3 translate-y-full opacity-0 group-hover:transition-all group-hover:duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                                <p className="bg-black size-14 font-medium rounded-full text-center text-white flex items-center justify-center">
+                                    500
+                                </p>
+                                <p className="text-slate-500">
+                                    Satisfied Client
+                                </p>
+                            </div>
+                        </div> */}
+
+                    {/* <span className="inline-block items-center justify-center translate-y-full opacity-100 group-hover:transition-all group-hover:duration-500 group-hover:translate-y-0 group-[.active]:transition-all group-[.active]:duration-500 group-[.active]:translate-y-0 group-hover:opacity-100 group-[.active]:opacity-0">
+                    50
+                </span> */}
+                    {/* <button
+                        className={cn(
+                            "relative overflow-hidden px-6 py-1 bg-white text-black border border-black rounded-full text-sm",
+                            "group"
+                        )}
+                        {...props}
+                    >
+                        <span className="inline-block group-hover:transition-all group-hover:duration-500 group-hover:-translate-y-full group-hover:opacity-0">
+                            {text}
+                        </span>
+                        <span className="absolute inset-0 flex items-center justify-center translate-y-full opacity-0 group-hover:transition-all group-hover:duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                            {text}
+                        </span>
+                    </button> */}
+
+
+    // const scrollContainerRef = useRef<HTMLDivElement>(null)
+
+    // useEffect(() => {
+    // const handleWheel = (e: WheelEvent) => {
+    // if (scrollContainerRef.current) {
+    // e.preventDefault()
+    // scrollContainerRef.current.scrollLeft += e.deltaY
+    // }
+    // }
+
+    // const currentRef = scrollContainerRef.current
+    // if (currentRef) {
+    // currentRef.addEventListener('wheel', handleWheel, { passive: false })
+    // }
+
+    // return () => {
+    // if (currentRef) {
+    // currentRef.removeEventListener('wheel', handleWheel)
+    // }
+    // }
+    // }, [])
+
+    // const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+    // useEffect(() => {
+    //     const handleWheel = (e: WheelEvent) => {
+    //         if (scrollContainerRef.current) {
+    //             // Prevent default vertical scrolling behavior
+    //             e.preventDefault();
+
+    //             // Scroll horizontally by deltaY value
+    //             scrollContainerRef.current.scrollLeft += e.deltaY;
+    //         }
+    //     };
+
+    //     const currentRef = scrollContainerRef.current;
+
+    //     if (currentRef) {
+    //         // Add wheel event listener
+    //         currentRef.addEventListener("wheel", handleWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     // Cleanup the event listener on unmount
+    //     return () => {
+    //         if (currentRef) {
+    //             currentRef.removeEventListener("wheel", handleWheel);
+    //         }
+    //     };
+    // }, []);
+
+    // const containerRef = useRef<HTMLDivElement>(null);
+
+    // useEffect(() => {
+    //     const container = containerRef.current;
+
+    //     const handleWheel = (event: WheelEvent) => {
+    //         // Prevent vertical scrolling
+    //         event.preventDefault();
+
+    //         console.log(event.deltaY);
+
+    //         if (container) {
+    //             const currentWidth = parseFloat(
+    //                 getComputedStyle(container).getPropertyValue(
+    //                     "--scroll-init-width"
+    //                 )
+    //             );
+
+    //             // Update the `--scroll-init-width` value
+    //             const newWidth = Math.max(
+    //                 scrollWidths,
+    //                 currentWidth + event.deltaY / 10
+    //             );
+    //             container.style.setProperty(
+    //                 "--scroll-init-width",
+    //                 `${newWidth}%`
+    //             );
+    //         }
+    //     };
+
+    //     if (container) {
+    //         container.style.setProperty("--scroll-init-width", "0%");
+    //         // Add non-passive event listener
+    //         container.addEventListener("wheel", handleWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     return () => {
+    //         if (container) {
+    //             // Clean up event listener
+    //             container.removeEventListener("wheel", handleWheel);
+    //         }
+    //     };
+    // }, []);
+
+    // useEffect(() => {
+    //     const container = containerRef.current;
+
+    //     const handleWheel = (event: WheelEvent) => {
+    //         if (!container) return;
+    //         event.preventDefault();
+
+    //         // Get the current value of `--scroll-init-width`
+    //         const currentWidth = parseFloat(
+    //             getComputedStyle(container).getPropertyValue(
+    //                 "--scroll-init-width"
+    //             )
+    //         );
+
+    //         if (
+    //             (event.deltaY > 0 && currentWidth > scrollWidths) || // Scrolling down
+    //             (event.deltaY < 0 && currentWidth < 0) // Scrolling up
+    //         ) {
+    //             // Prevent default behavior (vertical scroll)
+    //             event.preventDefault();
+
+    //             // Update the `--scroll-init-width` value
+    //             const newWidth = Math.min(
+    //                 0,
+    //                 Math.max(scrollWidths, currentWidth - event.deltaY / 10)
+    //             );
+    //             container.style.setProperty(
+    //                 "--scroll-init-width",
+    //                 `${newWidth}%`
+    //             );
+    //         } else if (event.deltaY < 0 && currentWidth === 0) {
+    //             // Allow vertical scroll when at the top boundary
+    //             container.style.setProperty("--scroll-init-width", `0%`);
+    //         } else if (event.deltaY > 0 && currentWidth === scrollWidths) {
+    //             // Allow vertical scroll when at the bottom boundary
+    //             container.style.setProperty(
+    //                 "--scroll-init-width",
+    //                 `${scrollWidths}%`
+    //             );
+    //         }
+    //     };
+
+    //     if (container) {
+    //         container.style.setProperty("--scroll-init-width", "0%");
+    //         container.addEventListener("wheel", handleWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     return () => {
+    //         if (container) {
+    //             container.removeEventListener("wheel", handleWheel);
+    //         }
+    //     };
+    // }, []);
+
+     // useEffect(() => {
+    //     const container = containerRef.current;
+
+    //     const handleWheel = (event: WheelEvent) => {
+    //         // Prevent vertical scrolling
+    //         event.preventDefault();
+
+    //         if (container) {
+    //             const currentWidth = parseFloat(
+    //                 getComputedStyle(container).getPropertyValue(
+    //                     "--scroll-init-width"
+    //                 )
+    //             );
+
+    //             // Clamp new width between -scrollWidths and +scrollWidths
+    //             const newWidth = Math.max(
+    //                 -scrollWidths,
+    //                 Math.min(scrollWidths, currentWidth + event.deltaY / 10)
+    //             );
+
+    //             // Update the `--scroll-init-width` value
+    //             container.style.setProperty(
+    //                 "--scroll-init-width",
+    //                 `${newWidth}%`
+    //             );
+    //         }
+    //     };
+
+    //     if (container) {
+    //         container.style.setProperty("--scroll-init-width", "0%");
+    //         // Add non-passive event listener
+    //         container.addEventListener("wheel", handleWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     return () => {
+    //         if (container) {
+    //             // Clean up event listener
+    //             container.removeEventListener("wheel", handleWheel);
+    //         }
+    //     };
+    // }, []);
+
+
+/* export function WorkSection() {
+    const containerRef = useRef<HTMLDivElement>(null);
+    const containerFirstElRef = useRef<HTMLDivElement>(null);
+    const containerLastElRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const container = containerRef.current;
+
+        const handleWheel = (event: WheelEvent) => {
+            // Prevent vertical scrolling
+            event.preventDefault();
+
+            if (container) {
+                const currentWidth = parseFloat(
+                    getComputedStyle(container).getPropertyValue(
+                        "--scroll-init-width"
+                    )
+                );
+
+                // Reverse the behavior by negating deltaY
+                const newWidth = Math.max(
+                    -scrollWidths,
+                    Math.min(scrollWidths, currentWidth - event.deltaY / 10)
+                );
+
+                // Update the `--scroll-init-width` value
+                container.style.setProperty(
+                    "--scroll-init-width",
+                    `${newWidth}%`
+                );
+            }
+
+            console.log("wheeling");
+        };
+
+        const section = document.querySelector("#work-section");
+
+        document.querySelectorAll(".single-work").forEach((el) => {
+            el.addEventListener("wheel", (e) => {
+                e.preventDefault();
+                section?.scrollIntoView({ behavior: "smooth" }); // Scroll to section smoothly
+                section?.focus({ preventScroll: true });
+            });
+
+            el.addEventListener("mouseover", (e) => {
+                e.preventDefault();
+                section?.scrollIntoView({ behavior: "smooth" }); // Scroll to section smoothly
+                section?.focus({ preventScroll: true });
+                addListener(); // in here please implement is eventListener didn't exists then it will work otherwise no need to add
+            });
+        });
+
+        function addListener() {
+            if (container) {
+                container.style.setProperty("--scroll-init-width", "0%");
+                // Add non-passive event listener
+                container.addEventListener("wheel", handleWheel, {
+                    passive: false,
+                });
+            }
+        }
+        addListener();
+
+        if (containerFirstElRef.current) {
+            containerFirstElRef.current.addEventListener(
+                "wheel",
+                function (event: WheelEvent) {
+                    if (event.deltaY > 0) {
+                        addListener(); // in here please implement is eventListener didn't exists then  need to add
+                        console.log("First Element Scrolling down");
+                    } else if (event.deltaY < 0) {
+                        rmListener(); // in here please implement is eventListener exists then it remove event listener
+                        console.log("First Element Scrolling up");
+                    }
+                }
+            );
+        }
+
+        function rmListener() {
+            if (container) {
+                // Clean up event listener
+                container.removeEventListener("wheel", handleWheel);
+            }
+        }
+        return rmListener;
+    }, []);
+
+    return (
+        <section className="bg-white overflow-hidden" id="work-section">
+            <div
+                ref={containerRef}
+                className="flex gap-6 overflow-x-visible scrollbar-hide snap-x snap-mandatory h-screen items-center justify-center duration-500"
+                style={
+                    {
+                        scrollBehavior: "smooth",
+                        "--scroll-widths": scrollWidths + "%",
+                        "--scroll-init-width": "0%",
+                        transform:
+                            "translate(var(--scroll-init-width, 0%), 0%) translate3d(0px, 0px, 0px)",
+                    } as CSSProperties
+                }
+            >
+                {/* Work intro card * /}
+                <FirstWorkSection
+                    ref={containerFirstElRef as React.RefObject<HTMLDivElement>}
+                />
+
+                {/* Work cards * /}
+                {works.map((work, index) => (
+                    <a
+                        key={work.title}
+                        className="snap-start block single-work"
+                        href="#"
+                    >
+                        <WorkCard {...work} />
+                    </a>
+                ))}
+
+                {/* View More card * /}
+                <LastWorkSection
+                    ref={containerFirstElRef as React.RefObject<HTMLDivElement>}
+                />
+            </div>
+
+            <Lorem />
+        </section>
+    );
+} */
+
+
+
+/* function AnimatedCreditShow() {
+    const btnRef = useRef<HTMLButtonElement | null>(null);
+    const [first, setFirst] = useState(50);
+
+    useEffect(function () {
+        if (btnRef.current) {
+            setInterval(function () {
+                if (btnRef.current?.classList.contains("active")) {
+                    btnRef.current?.classList.remove("active");
+                    setFirst(500);
+                } else {
+                    setFirst(15);
+                    btnRef.current?.classList.add("active");
+                }
+            }, 2000);
+        }
+    }, []);
+
+    return (
+        <div className="w-full">
+            <button
+                className="relative overflow-hidden px-6 py-1 border border-black text-xl rounded-full bg-black border-none text-white size-14 flex items-center justify-center group"
+                ref={btnRef}
+            >
+                <span className="inline-block -translate-y-0 duration-500 group-hover:transition-all group-hover:-translate-y-full group-hover:opacity-0 group-[.active]:transition-all group-[.active]:-translate-y-full group-[.active]:opacity-0">
+                    10
+                </span>
+
+                <span className="absolute inset-0 flex items-center justify-center translate-y-full opacity-0 group-hover:transition-all group-hover:duration-500 group-hover:translate-y-0 group-[.active]:transition-all group-[.active]:duration-500 group-[.active]:translate-y-0 group-hover:opacity-100 group-[.active]:opacity-100">
+                    {first}
+                </span>
+            </button>
+        </div>
+    );
+} */
+
+/* function Logo() {
+    return (
+        <svg
+            id="logo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64.06 32"
+            width={150}
+            height={150}
+        >
+            <rect
+                id="line1"
+                x="12.31"
+                width="6.78"
+                height="32"
+                stroke-width="0"
+                style={{
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    transformOrigin: "0px 0px",
+                }}
+                data-svg-origin="15.700000524520874 0"
+                transform="matrix(1,0,0,1,0,0)"
+            />
+            <polygon
+                id="angle1"
+                points="0 32 6.78 32 12.31 0 5.53 0 0 32"
+                stroke-width="0"
+                style={{
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    transformOrigin: "0px 0px",
+                    visibility: "visible",
+                }}
+                data-svg-origin="6.15500020980835 0"
+                transform="matrix(1,0,0,1,0,0)"
+            />
+            <rect
+                id="line2"
+                x="25.88"
+                width="6.78"
+                height="32"
+                stroke-width="0"
+                style={{
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    transformOrigin: "0px 0px",
+                }}
+                data-svg-origin="29.269999265670776 0"
+                transform="matrix(1,0,0,1,0,0)"
+            />
+            <polygon
+                id="angle2"
+                points="32.66 32 39.44 32 44.97 0 38.19 0 32.66 32"
+                stroke-width="0"
+                style={{
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    transformOrigin: "0px 0px",
+                    visibility: "visible",
+                }}
+                data-svg-origin="38.81500053405762 32"
+                transform="matrix(1,0,0,1,-0.25744,0)"
+            />
+            <rect
+                id="line3"
+                x="44.97"
+                width="6.78"
+                height="32"
+                stroke-width="0"
+                style={{
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    transformOrigin: "0px 0px",
+                }}
+                data-svg-origin="48.3600013256073 0"
+                transform="matrix(1,0,0,1,0,0)"
+            />
+            <polygon
+                id="angle3"
+                points="57.28 0 51.75 32 58.53 32 64.06 0 57.28 0"
+                stroke-width="0"
+                style={{
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    transformOrigin: "0px 0px",
+                    visibility: "visible",
+                }}
+                data-svg-origin="57.904998779296875 32"
+                transform="matrix(1,0,0,1,-0.25744,0)"
+            />
+        </svg>
+    );
+}
+ */
+
+
+// const logos = [
+//     { src: "/placeholder.svg", alt: "Tech Superpowers" },
+//     { src: "/placeholder.svg", alt: "Vortexa" },
+//     { src: "/placeholder.svg", alt: "Boschung" },
+//     { src: "/placeholder.svg", alt: "Fudli" },
+//     { src: "/placeholder.svg", alt: "Knowledge" },
+// ];
+
+// export default function AnimatedSection() {
+//     const { currentIndex, isReversing } = useSequenceAnimation(logos);
+
+//     return (
+//         <div className="min-h-screen w-full py-20 space-y-20">
+//             {/* Animated text section */}
+//             <div className="container mx-auto px-4">
+//                 <AnimatedText
+//                     text="From ambitious startups to global"
+//                     className="text-4xl md:text-5xl font-bold mb-4"
+//                     delay={0}
+//                 />
+//                 <AnimatedText
+//                     text="companies, we partner with great"
+//                     className="text-4xl md:text-5xl font-bold mb-4"
+//                     delay={0.5}
+//                 />
+//                 <AnimatedText
+//                     text="businesses and industry leaders."
+//                     className="text-4xl md:text-5xl font-bold"
+//                     delay={1}
+//                 />
+//             </div>
+
+//             {/* Animated logos section */}
+//             <div className="container mx-auto px-4">
+//                 <div className="flex flex-wrap justify-between items-center gap-8">
+//                     {logos.map((logo, index) => (
+//                         <motion.div
+//                             key={index}
+//                             initial={{ opacity: 0, y: 50 }}
+//                             animate={{
+//                                 opacity: isReversing
+//                                     ? index >= currentIndex
+//                                         ? 1
+//                                         : 0
+//                                     : index <= currentIndex
+//                                     ? 1
+//                                     : 0,
+//                                 y: isReversing
+//                                     ? index >= currentIndex
+//                                         ? 0
+//                                         : 50
+//                                     : index <= currentIndex
+//                                     ? 0
+//                                     : 50,
+//                             }}
+//                             transition={{
+//                                 duration: 0.8,
+//                                 ease: [0.16, 1, 0.3, 1], // Custom ease for smoother animation
+//                             }}
+//                             className="w-32 h-12 relative"
+//                         >
+//                             <Image
+//                                 src={logo.src}
+//                                 alt={logo.alt}
+//                                 fill
+//                                 className="object-contain"
+//                             />
+//                         </motion.div>
+//                     ))}
+//                 </div>
+//             </div>
+
+//             {/* Scroll reveal section */}
+//             <ScrollRevealText text="Elevate your digital presence" />
+
+//             {/* Stats section */}
+//             <div className="container mx-auto px-4">
+//                 <AnimatedText
+//                     text="Let our experienced team elevate your digital goals"
+//                     className="text-3xl md:text-4xl font-bold mb-16"
+//                     delay={2}
+//                 />
+
+//                 <div className="grid md:grid-cols-2 gap-8 items-start">
+//                     <div className="space-y-8">
+//                         <div>
+//                             <motion.h3
+//                                 initial={{ opacity: 0, y: 20 }}
+//                                 animate={{ opacity: 1, y: 0 }}
+//                                 transition={{ delay: 2.5 }}
+//                                 className="text-5xl font-bold"
+//                             >
+//                                 250
+//                             </motion.h3>
+//                             <motion.p
+//                                 initial={{ opacity: 0 }}
+//                                 animate={{ opacity: 1 }}
+//                                 transition={{ delay: 2.7 }}
+//                                 className="text-xl text-gray-600"
+//                             >
+//                                 Five-Star Reviews
+//                             </motion.p>
+//                         </div>
+//                         <div>
+//                             <motion.h3
+//                                 initial={{ opacity: 0, y: 20 }}
+//                                 animate={{ opacity: 1, y: 0 }}
+//                                 transition={{ delay: 2.9 }}
+//                                 className="text-5xl font-bold"
+//                             >
+//                                 10
+//                             </motion.h3>
+//                             <motion.p
+//                                 initial={{ opacity: 0 }}
+//                                 animate={{ opacity: 1 }}
+//                                 transition={{ delay: 3.1 }}
+//                                 className="text-xl text-gray-600"
+//                             >
+//                                 In-House Experts
+//                             </motion.p>
+//                         </div>
+//                     </div>
+//                     <motion.p
+//                         initial={{ opacity: 0, y: 20 }}
+//                         animate={{ opacity: 1, y: 0 }}
+//                         transition={{ delay: 3.3 }}
+//                         className="text-lg text-gray-600"
+//                     >
+//                         We have successfully completed over 300+ projects from a
+//                         variety of industries. In our team, designers work
+//                         alongside developers and digital strategists, we believe
+//                         this is our winning recipe for creating digital products
+//                         that make an impact.
+//                     </motion.p>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }
+
+
+// interface ScrollRevealTextProps {
+//     text: string;
+//     className?: string;
+// }
+
+// export function ScrollRevealText({
+//     text,
+//     className = "",
+// }: ScrollRevealTextProps) {
+//     const ref = useRef<HTMLDivElement>(null);
+//     const containerRef = useRef<HTMLDivElement>(null);
+//     const [isVisible, setIsVisible] = useState(false);
+
+//     const { scrollYProgress } = useScroll({
+//         target: ref,
+//         offset: ["start end", "end start"],
+//     });
+
+//     // Slower, smoother parallax effect
+//     const x = useTransform(
+//         scrollYProgress,
+//         [0, 0.2, 0.8, 1],
+//         ["100%", "0%", "0%", "-100%"]
+//     );
+//     const opacity = useTransform(
+//         scrollYProgress,
+//         [0, 0.2, 0.8, 1],
+//         [0, 1, 1, 0]
+//     );
+
+//     useEffect(() => {
+//         const observer = new IntersectionObserver(
+//             ([entry]) => {
+//                 setIsVisible(entry.isIntersecting);
+//             },
+//             {
+//                 threshold: 0.1,
+//                 rootMargin: "50px",
+//             }
+//         );
+
+//         if (ref.current) {
+//             observer.observe(ref.current);
+//         }
+
+//         return () => {
+//             if (ref.current) {
+//                 observer.unobserve(ref.current);
+//             }
+//         };
+//     }, []);
+
+//     return (
+//         <div ref={containerRef} className="relative h-screen overflow-hidden">
+//             <div
+//                 ref={ref}
+//                 className={`sticky top-1/2 -translate-y-1/2 ${className}`}
+//             >
+//                 <motion.h2
+//                     style={{ x, opacity }}
+//                     className="text-[8vw] font-poppins text-nowrap font-bold leading-tight"
+//                 >
+//                     {text}
+//                 </motion.h2>
+//             </div>
+//         </div>
+//     );
+// }
+
+
+// export function ScrollRevealText({
+//     text,
+//     className = "",
+// }: ScrollRevealTextProps) {
+//     const ref = useRef<HTMLDivElement>(null);
+//     const [translateX, setTranslateX] = useState(0);
+
+//     useEffect(() => {
+//         const handleWheel = (event: WheelEvent) => {
+//             // event.preventDefault(); // Prevent default scrolling behavior
+//             setTranslateX((prev) => prev - event.deltaY * 3); // Adjust speed with multiplier
+//         };
+
+//         const element = ref.current;
+//         if (element) {
+//             element.addEventListener("wheel", handleWheel, { passive: false });
+//         }
+
+//         return () => {
+//             if (element) {
+//                 element.removeEventListener("wheel", handleWheel);
+//             }
+//         };
+//     }, []);
+
+//     return (
+//         <div className="relative h-[50vh] overflow-hidden " ref={ref}>
+//             <div
+//                 className={`sticky top-1/2 -translate-y-1/2 ${className}`}
+//                 style={{
+//                     transform: `translate3d(${translateX}px, 0, 0)`,
+//                     transition: "transform 0.1s linear", // Smooth movement
+//                 }}
+//             >
+//                 <h2 className="text-[8vw] font-poppins text-nowrap font-bold leading-tight">
+//                     {text}
+//                 </h2>
+//             </div>
+//         </div>
+//     );
+// }
+
+/* "use client";
+
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
+import Assets from "@/assets";
+
+export const Preloader = () => {
+    const [showPreloader, setShowPreloader] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowPreloader(false);
+        }, 3000); // Adjust this time as needed
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    return (
+        <AnimatePresence>
+            {showPreloader && (
+                <motion.div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-[#111]"
+                    initial={{ clipPath: "inset(0 0 100% 0)" }}
+                    animate={{ clipPath: "inset(0 0 0 0)" }}
+                    exit={{ clipPath: "inset(0 0 0 100%)" }}
+                    transition={{
+                        duration: 1,
+                        ease: "easeInOut",
+                        exit: { duration: 0.8 },
+                    }}
+                >
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.5 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.5, duration: 0.5 }}
+                    >
+                        <Assets.svg.logo
+                            width={200}
+                            height={120}
+                            fill="#fff"
+                            className="!fill-white text-white"
+                        />
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
+    );
+};
+ */
+
+
+    // useEffect(() => {
+    //     if (!app.mainScrollContainer.scroll) return () => {};
+
+    //     const scroll = app.mainScrollContainer.scroll;
+    //     const workSection = workSectionRef.current;
+
+    //     // Initialize Locomotive Scroll for horizontal scrolling
+    //     const scrollX = new LocomotiveScroll({
+    //         el: workSectionContainerRef.current!,
+    //         smooth: true,
+    //         direction: "horizontal",
+    //         gestureDirection: "horizontal",
+    //         multiplier: 1,
+    //         lerp: 0.1,
+    //     });
+
+    //     const handlePauseScroll = () => {
+    //         scroll.stop(); // Pause the main scroll
+    //         console.log("Main scroll paused for horizontal scrolling.");
+    //     };
+
+    //     const handleResumeScroll = () => {
+    //         scroll.start(); // Resume the main scroll
+    //         console.log("Main scroll resumed.");
+    //     };
+
+    //     // Custom mouse wheel scroll handling
+    //     const handleMouseWheel = (event: WheelEvent) => {
+    //         if (!workSection) return;
+
+    //         // Prevent default vertical scrolling behavior
+    //         event.preventDefault();
+
+    //         // Translate vertical scroll to horizontal
+    //         const delta = event.deltaY || event.deltaX;
+    //         scrollX.scroll.instance.scroll.x -= delta;
+    //         scrollX.update(); // Update Locomotive Scroll position
+    //     };
+
+    //     if (workSection) {
+    //         workSection.addEventListener("mouseenter", handlePauseScroll);
+    //         workSection.addEventListener("mouseleave", handleResumeScroll);
+    //         workSection.addEventListener("wheel", handleMouseWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     return () => {
+    //         scrollX.destroy();
+    //         if (workSection) {
+    //             workSection.removeEventListener(
+    //                 "mouseenter",
+    //                 handlePauseScroll
+    //             );
+    //             workSection.removeEventListener(
+    //                 "mouseleave",
+    //                 handleResumeScroll
+    //             );
+    //             workSection.removeEventListener("wheel", handleMouseWheel);
+    //         }
+    //     };
+    // }, [app]);
+
+    // useEffect(() => {
+    //     if (!app.mainScrollContainer.scroll) return () => {};
+
+    //     const scroll = app.mainScrollContainer.scroll;
+    //     const workSection = workSectionRef.current;
+
+    //     // Initialize Locomotive Scroll for horizontal scrolling
+    //     const scrollX = new LocomotiveScroll({
+    //         el: workSectionContainerRef.current!,
+    //         smooth: true,
+    //         direction: "horizontal",
+    //         gestureDirection: "horizontal",
+    //         multiplier: 1,
+    //         lerp: 0.1,
+    //     });
+
+    //     const handlePauseScroll = () => {
+    //         scroll.stop(); // Pause the main scroll
+    //         console.log("Main scroll paused for horizontal scrolling.");
+    //     };
+
+    //     const handleResumeScroll = () => {
+    //         scroll.start(); // Resume the main scroll
+    //         console.log("Main scroll resumed.");
+    //     };
+
+    //     // Custom mouse wheel scroll handling
+    //     const handleMouseWheel = (event: WheelEvent) => {
+    //         if (!workSection) return;
+
+    //         // Prevent default vertical scrolling behavior
+    //         event.preventDefault();
+
+    //         // Invert the scrolling direction
+    //         const delta = -event.deltaY * 3; // Negate the delta for reversed direction
+
+    //         // Update Locomotive Scroll's horizontal position
+    //         scrollX.scroll.instance.scroll.x -= delta;
+    //         scrollX.update(); // Ensure Locomotive Scroll updates its position
+    //     };
+
+    //     if (workSection) {
+    //         workSection.addEventListener("mouseenter", handlePauseScroll);
+    //         workSection.addEventListener("mouseleave", handleResumeScroll);
+    //         workSection.addEventListener("wheel", handleMouseWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     return () => {
+    //         scrollX.destroy();
+    //         if (workSection) {
+    //             workSection.removeEventListener(
+    //                 "mouseenter",
+    //                 handlePauseScroll
+    //             );
+    //             workSection.removeEventListener(
+    //                 "mouseleave",
+    //                 handleResumeScroll
+    //             );
+    //             workSection.removeEventListener("wheel", handleMouseWheel);
+    //         }
+    //     };
+    // }, [app]);
+
+
+                // document
+                //     .getElementById("bottom")
+                //     ?.classList.replace("hidden", "block");
+                // Custom behavior for the rightmost limit
+
+            // if (scrollLeft <= 0 && delta < 0) {
+            //     // At the leftmost edge and scrolling up (negative delta)
+            //     handleResumeScroll(); // Resume vertical scroll
+            // } else if (scrollLeft >= maxScrollLeft && delta > 0) {
+            //     // At the rightmost edge and scrolling down (positive delta)
+            //     handleResumeScroll(); // Resume vertical scroll
+            // };
+            // if (workSection) {
+            //     workSection.removeEventListener(
+            //         "mouseenter",
+            //         handlePauseScroll
+            //     );
+            //     workSection.removeEventListener(
+            //         "mouseleave",
+            //         handleResumeScroll
+            //     );
+            //     workSection.removeEventListener("wheel", handleMouseWheel);
+            // }
+            // workSection.addEventListener("mouseenter", handlePauseScroll);
+            // workSection.addEventListener("mouseleave", handleResumeScroll);
+
+        // Function to check if the section is fully visible
+        // const isFullyVisible = () => {
+        //     if (!workSectionContainer) return false;
+
+        //     const rect = workSectionContainer.getBoundingClientRect();
+        //     const windowHeight = window.innerHeight;
+
+        //     // console.log({ x: rect.top, y: rect.bottom, z: windowHeight });
+        //     return (
+        //         rect.top > 20 ||
+        //         rect.top > -40 ||
+        //         rect.top > -100 ||
+        //         rect.top > -200
+        //     );
+        //     // Check if the element is fully visible in the viewport
+        //     // return rect.top >= 0 && rect.bottom <= windowHeight;
+        // };
+
+        // const handlePauseScroll = () => {
+        //     const s = isFullyVisible();
+        //     // console.log(s);
+        //     if (s) {
+        //         scroll.stop(); // Pause the vertical scroll
+        //         // (workSectionContainer as HTMLElement).scrollIntoView({
+        //         //     behavior: "smooth",
+        //         // });
+        //         // (workSectionContainer as HTMLElement).focus({
+        //         //     preventScroll: true,
+        //         // });
+
+        //         console.log(
+        //             "Vertical scrolling paused for horizontal section."
+        //         );
+        //     }
+        // };
+
+        // const handleResumeScroll = () => {
+        //     scroll.start(); // Resume the vertical scroll
+        //     console.log("Vertical scrolling resumed.");
+        // };
+
+    // useEffect(() => {
+    //     if (!app.mainScrollContainer.scroll) return () => {};
+
+    //     const scroll = app.mainScrollContainer.scroll;
+    //     const workSection = workSectionRef.current;
+    //     const workSectionContainer = workSectionContainerRef.current;
+
+    //     // Initialize Locomotive Scroll for horizontal scrolling
+    //     const scrollX = new LocomotiveScroll({
+    //         el: workSectionContainer!,
+    //         smooth: true,
+    //         direction: "horizontal",
+    //         gestureDirection: "horizontal",
+    //         multiplier: 1,
+    //         lerp: 0.1,
+    //     });
+
+    //     const isFullyVisible = () => {
+    //         if (!workSectionContainer) return false;
+
+    //         const rect = workSectionContainer.getBoundingClientRect();
+    //         const windowHeight = window.innerHeight;
+
+    //         console.log({ x: rect.top, y: rect.bottom, z: windowHeight });
+    //         // Check if the element is fully within the viewport
+    //         return rect.top >= 0 && rect.bottom <= windowHeight;
+    //     };
+
+    //     const handlePauseScroll = () => {
+    //         if (isFullyVisible()) {
+    //             scroll.stop(); // Pause the vertical scroll
+    //             console.log(
+    //                 "Vertical scrolling paused for horizontal section."
+    //             );
+    //         }
+    //     };
+
+    //     const handleResumeScroll = () => {
+    //         scroll.start(); // Resume the vertical scroll
+    //         console.log("Vertical scrolling resumed.");
+    //     };
+
+    //     const handleMouseWheel = (event: WheelEvent) => {
+    //         if (!workSection) return;
+
+    //         // Prevent default vertical scrolling behavior
+    //         event.preventDefault();
+
+    //         // Scroll speed factor
+    //         const scrollSpeed = 3;
+    //         const delta = -event.deltaY * scrollSpeed;
+
+    //         // Update Locomotive Scroll's horizontal position
+    //         scrollX.scroll.instance.scroll.x -= delta;
+    //         scrollX.update();
+
+    //         // Check scroll boundaries
+    //         const scrollLeft = scrollX.scroll.instance.scroll.x;
+    //         const maxScrollLeft = scrollX.scroll.instance.limit.x;
+
+    //         if (scrollLeft <= 0 && delta < 0) {
+    //             // At the leftmost edge and scrolling up (negative delta)
+    //             handleResumeScroll(); // Resume vertical scroll
+    //         } else if (scrollLeft >= maxScrollLeft && delta > 0) {
+    //             // At the rightmost edge and scrolling down (positive delta)
+    //             handleResumeScroll(); // Resume vertical scroll
+    //         }
+    //     };
+
+    //     if (workSection) {
+    //         workSection.addEventListener("mouseenter", handlePauseScroll);
+    //         workSection.addEventListener("mouseleave", handleResumeScroll);
+    //         workSection.addEventListener("wheel", handleMouseWheel, {
+    //             passive: false,
+    //         });
+    //     }
+
+    //     return () => {
+    //         scrollX.destroy();
+    //         if (workSection) {
+    //             workSection.removeEventListener(
+    //                 "mouseenter",
+    //                 handlePauseScroll
+    //             );
+    //             workSection.removeEventListener(
+    //                 "mouseleave",
+    //                 handleResumeScroll
+    //             );
+    //             workSection.removeEventListener("wheel", handleMouseWheel);
+    //         }
+    //     };
+    // }, [app]);
+// export default function WorkSection() {
+//     const app = useAppContext();
+//     const workSectionRef = useRef<HTMLElement>(null);
+//     const workSectionContainerRef = useRef<HTMLDivElement>(null);
+
+//     useEffect(() => {
+//         // Ensure Locomotive Scroll is initialized only if main scroll is present
+//         if (!app.mainScrollContainer.scroll) return () => {};
+
+//         const scroll = app.mainScrollContainer.scroll;
+//         const workSection = workSectionRef.current;
+
+//         // Initialize Locomotive Scroll for horizontal scrolling
+//         const scrollX = new LocomotiveScroll({
+//             el: workSectionContainerRef.current!,
+//             smooth: true,
+//             direction: "horizontal",
+//             gestureDirection: "horizontal",
+//             multiplier: 1,
+//             lerp: 0.1,
+//         });
+
+//         const handlePauseScroll = () => {
+//             scroll.stop(); // Pause the main scroll
+//             console.log("Main scroll paused for horizontal scrolling.");
+//         };
+
+//         const handleResumeScroll = () => {
+//             scroll.start(); // Resume the main scroll
+//             console.log("Main scroll resumed.");
+//         };
+
+//         if (workSection) {
+//             workSection.addEventListener("mouseenter", handlePauseScroll);
+//             workSection.addEventListener("mouseleave", handleResumeScroll);
+//         }
+
+//         return () => {
+//             scrollX.destroy(); // Cleanup Locomotive Scroll
+//             if (workSection) {
+//                 workSection.removeEventListener(
+//                     "mouseenter",
+//                     handlePauseScroll
+//                 );
+//                 workSection.removeEventListener(
+//                     "mouseleave",
+//                     handleResumeScroll
+//                 );
+//             }
+//         };
+//     }, [app]);
+
+//     return (
+//         <section
+//             className="bg-white overflow-hidden"
+//             id="work-section"
+//             ref={workSectionRef}
+//         >
+//             <div
+//                 ref={workSectionContainerRef}
+//                 id="work-section-container"
+//                 className="flex gap-6 overflow-x-visible scrollbar-hide snap-x snap-mandatory h-screen items-center justify-start duration-500"
+//                 style={{
+//                     scrollBehavior: "smooth",
+//                     display: "flex",
+//                     width: "max-content",
+//                 }}
+//             >
+//                 {/* Work intro card */}
+//                 <FirstWorkSection />
+
+//                 {/* Work cards */}
+//                 {works.map((work) => (
+//                     <a
+//                         key={work.title}
+//                         className="snap-start block single-work"
+//                         href="#"
+//                     >
+//                         <WorkCard {...work} />
+//                     </a>
+//                 ))}
+
+//                 {/* View More card */}
+//                 <LastWorkSection />
+//             </div>
+//         </section>
+//     );
+// }
+
+// export default function WorkSection() {
+//     const app = useAppContext();
+//     const containerRef = useRef<HTMLDivElement>(null);
+//     const containerFirstElRef = useRef<HTMLDivElement>(null);
+//     const containerLastElRef = useRef<HTMLDivElement>(null);
+//     const workSectionRef = useRef<HTMLElement>(null);
+//     const workSectionContainerRef = useRef<HTMLDivElement>(null);
+
+//     console.log("APP", app);
+//     const activeListeners = new Set(); // Track active listeners
+
+//     useEffect(() => {
+//         // const scrollContainer = document.querySelector(
+//         //     "#smooth-scroll"
+//         // ) as HTMLDivElement;
+//         // const locomotiveScroll = new LocomotiveScroll({
+//         //     el: scrollContainer,
+//         //     smooth: true,
+//         // });
+//         const workSection = workSectionRef.current;
+
+//         const scrollX = new LocomotiveScroll({
+//             el: workSection!,
+//             smooth: true,
+//             multiplier: 1,
+//             lerp: 0.1,
+//             gestureDirection: "horizontal",
+//             direction: "horizontal",
+//         });
+
+//         if (!app.mainScrollContainer.scroll) return () => {};
+//         const scroll = app.mainScrollContainer.scroll;
+
+//         const handlePauseScroll = () => {
+//             // locomotiveScroll.stop();
+//             // scrollX.start();
+//             scroll.stop();
+//             console.log("Locomotive scroll paused", {
+//                 scrollY: app.mainScrollContainer.scroll,
+//                 scrollX,
+//             });
+//         };
+
+//         const handleResumeScroll = () => {
+//             scroll.start();
+//             console.log("Locomotive scroll resumed", {
+//                 scrollY: app.mainScrollContainer.scroll,
+//                 scrollX,
+//             });
+//         };
+
+//         if (workSection) {
+//             workSection.addEventListener("mouseenter", handlePauseScroll);
+//             workSection.addEventListener("mouseleave", handleResumeScroll);
+//         }
+
+//         return () => {
+//             // locomotiveScroll.destroy(); // Clean up locomotive-scroll instance
+//             if (workSection) {
+//                 workSection.removeEventListener(
+//                     "mouseenter",
+//                     handlePauseScroll
+//                 );
+//                 workSection.removeEventListener(
+//                     "mouseleave",
+//                     handleResumeScroll
+//                 );
+//             }
+//         };
+//     }, [app]);
+
+//     return (
+//         <section
+//             className="bg-white overflow-hidden"
+//             id="work-section"
+//             ref={workSectionRef}
+//         >
+//             <div
+//                 ref={workSectionContainerRef}
+//                 // ref={containerRef}
+//                 id="work-section-container"
+//                 className="flex gap-6 overflow-x-visible scrollbar-hide snap-x snap-mandatory h-screen items-center justify-center duration-500"
+//                 style={
+//                     {
+//                         scrollBehavior: "smooth",
+//                         "--scroll-widths": `${scrollWidths}%`,
+//                         "--scroll-init-width": `${scrollWidths}%`,
+//                         transform:
+//                             "translate(var(--scroll-init-width, 0%), 0%) translate3d(0px, 0px, 0px)",
+//                     } as CSSProperties
+//                 }
+//             >
+//                 {/* Work intro card */}
+//                 <FirstWorkSection
+//                 // ref={containerFirstElRef as React.RefObject<HTMLDivElement>}
+//                 />
+
+//                 {/* Work cards */}
+//                 {works.map((work) => (
+//                     <a
+//                         key={work.title}
+//                         className="snap-start block single-work"
+//                         href="#"
+//                     >
+//                         <WorkCard {...work} />
+//                     </a>
+//                 ))}
+
+//                 {/* View More card */}
+//                 <LastWorkSection
+//                 // ref={containerLastElRef as React.RefObject<HTMLDivElement>}
+//                 />
+//             </div>
+//         </section>
+//     );
+// }
+
+// export function WorksView() {
+//     const horizontalRef = useRef<HTMLDivElement>(null);
+//     const locomotiveScrollRef = useRef<LocomotiveScroll | null>(null);
+
+//     useEffect(() => {
+//         // Initialize `locomotive-scroll`
+//         locomotiveScrollRef.current = new LocomotiveScroll({
+//             el: document.querySelector(
+//                 "[data-scroll-container]"
+//             ) as HTMLDivElement,
+//             smooth: true,
+//             direction: "vertical",
+//         });
+
+//         const handleWheel = (event: WheelEvent) => {
+//             const horizontalSection = horizontalRef.current;
+
+//             if (horizontalSection) {
+//                 const sectionBounds = horizontalSection.getBoundingClientRect();
+//                 if (
+//                     sectionBounds.top <= 0 &&
+//                     sectionBounds.bottom > window.innerHeight
+//                 ) {
+//                     event.preventDefault(); // Prevent vertical scroll
+//                     const scrollDelta = event.deltaY;
+
+//                     horizontalSection.scrollLeft += scrollDelta;
+//                 }
+//             }
+//         };
+
+//         // Add wheel listener
+//         window.addEventListener("wheel", handleWheel, { passive: false });
+
+//         // Cleanup
+//         return () => {
+//             locomotiveScrollRef.current?.destroy();
+//             window.removeEventListener("wheel", handleWheel);
+//         };
+//     }, []);
+
+//     return (
+//         <div data-scroll-container>
+//             {/* Vertical sections */}
+//             <section data-scroll-section className="h-screen bg-gray-100">
+//                 <h1 className="text-center text-3xl font-bold">
+//                     Vertical Section 1
+//                 </h1>
+//             </section>
+
+//             {/* Horizontal scrolling section */}
+//             <section
+//                 data-scroll-section
+//                 ref={horizontalRef}
+//                 className="flex overflow-x-scroll scrollbar-hide h-screen"
+//             >
+//                 {works.map((work, index) => (
+//                     <div
+//                         key={index}
+//                         className="flex-shrink-0 w-screen h-full bg-gray-200 flex items-center justify-center"
+//                     >
+//                         <h2 className="text-xl">{work.title}</h2>
+//                     </div>
+//                 ))}
+//             </section>
+
+//             {/* Vertical sections continue */}
+//             <section data-scroll-section className="h-screen bg-gray-300">
+//                 <h1 className="text-center text-3xl font-bold">
+//                     Vertical Section 2
+//                 </h1>
+//             </section>
+//         </div>
+//     );
+// }
+
+/* useEffect(() => {
+        const container = containerRef.current;
+
+        const handleWheel = (event: WheelEvent) => {
+            // Prevent vertical scrolling
+            event.preventDefault();
+
+            if (container) {
+                const currentWidth = parseFloat(
+                    getComputedStyle(container).getPropertyValue(
+                        "--scroll-init-width"
+                    )
+                );
+
+                // Reverse the behavior by negating deltaY
+                const newWidth = Math.max(
+                    -scrollWidths,
+                    Math.min(scrollWidths, currentWidth - event.deltaY / 30)
+                );
+
+                // Update the `--scroll-init-width` value
+                container.style.setProperty(
+                    "--scroll-init-width",
+                    `${newWidth}%`
+                );
+            }
+
+            console.log("Wheel event triggered");
+        };
+
+        const addListener = () => {
+            if (container && !activeListeners.has("wheel")) {
+                container.style.setProperty("--scroll-init-width", "0%");
+                container.addEventListener("wheel", handleWheel, {
+                    passive: false,
+                });
+                activeListeners.add("wheel");
+                console.log("Wheel listener added");
+            }
+        };
+
+        const rmListener = () => {
+            if (container && activeListeners.has("wheel")) {
+                container.removeEventListener("wheel", handleWheel);
+                activeListeners.delete("wheel");
+                console.log("Wheel listener removed");
+            }
+        };
+
+        const section = document.querySelector("#work-section");
+        document.querySelectorAll(".single-work").forEach((el) => {
+            el.addEventListener("wheel", (e) => {
+                e.preventDefault();
+                section?.scrollIntoView({ behavior: "smooth" });
+                (section as HTMLElement)?.focus({ preventScroll: true });
+            });
+
+            el.addEventListener("mouseover", (e) => {
+                e.preventDefault();
+                section?.scrollIntoView({ behavior: "smooth" });
+                (section as HTMLElement)?.focus({ preventScroll: true });
+                addListener(); // Ensure listener is added
+            });
+        });
+
+        if (containerFirstElRef.current) {
+            containerFirstElRef.current.addEventListener(
+                "wheel",
+                (event: WheelEvent) => {
+                    if (event.deltaY > 0) {
+                        addListener(); // Add listener if not exists
+                        console.log("First element scrolling down");
+                    } else if (event.deltaY < 0) {
+                        rmListener(); // Remove listener if exists
+                        console.log("First element scrolling up");
+                    }
+                }
+            );
+        }
+
+        if (containerLastElRef.current) {
+            containerLastElRef.current.addEventListener(
+                "wheel",
+                (event: WheelEvent) => {
+                    if (event.deltaY > 0) {
+                        rmListener(); // Remove listener if exists
+                        console.log("First element scrolling down");
+                    } else if (event.deltaY < 0) {
+                        addListener(); // Add listener if not exists
+                        console.log("First element scrolling up");
+                    }
+                }
+            );
+        }
+
+        // Clean up on unmount
+        return () => {
+            rmListener();
+        };
+    }, []); */
+
+
+    /* useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return;
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+
+        // Locomotive Scroll initialization
+        const scrollX = new LocomotiveScroll({
+            el: workSectionContainerRef.current!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5, // Faster horizontal scrolling
+            lerp: 0.1,
+        });
+
+        const handleMouseWheel = (event: WheelEvent) => {
+            // Prevent default vertical scrolling
+            event.preventDefault();
+
+            const delta = -event.deltaY * 2; // Adjust horizontal scroll speed
+            scrollX.scroll.instance.scroll.x -= delta;
+            scrollX.update();
+        };
+
+        workSection?.addEventListener("wheel", handleMouseWheel, {
+            passive: false,
+        });
+
+        // Intersection Observer setup
+        // const observer = new IntersectionObserver(
+        //     (entries) => {
+        //         const entry = entries[0];
+        //         console.log(entries);
+        //         if (entry.isIntersecting) {
+        //             console.log("Vertical scrolling paused in workSection.");
+        //             scroll.stop(); // Pause vertical scrolling
+        //         } else {
+        //             scroll.start(); // Resume vertical scrolling
+        //             console.log(
+        //                 "Vertical scrolling resumed outside workSection."
+        //             );
+        //         }
+        //     },
+        //     {
+        //         root: null, // Use the viewport as root
+        //         threshold: 0.1, // Trigger when 10% of the section is visible
+        //     }
+        // );
+
+        // const el = document.getElementById("bottom");
+        // console.log(el);
+        // if (workSection) {
+        // observer.observe(el as HTMLElement); // Observe the section
+        // }
+
+        // Clean up
+        // return () => {
+        //     scrollX.destroy();
+        //     if (workSection) {
+        //         observer.unobserve(workSection);
+        //     }
+        //     console.log("Intersection observer removed");
+        // };
+    }, [app]); */
+
+    /*     useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return;
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+        const workSectionContainer = workSectionContainerRef.current;
+
+        // Locomotive Scroll for horizontal scrolling
+        const scrollX = new LocomotiveScroll({
+            el: workSectionContainer!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5, // Faster horizontal scrolling
+            lerp: 0.1,
+        });
+
+        // Function to check if workSection is active
+        const isWorkSectionActive = () => {
+            if (!workSection) return false;
+
+            const rect = workSection.getBoundingClientRect();
+            const isActive = rect.top <= 0; // && rect.bottom > window.innerHeight;
+
+            console.log(
+                "isWorkSectionActive called:",
+                {
+                    rectTop: rect.top,
+                    rectBottom: rect.bottom,
+                    windowHeight: window.innerHeight,
+                },
+                isActive ? "Active" : "Not Active"
+            );
+
+            if (isActive) {
+                scroll.stop();
+            } else scroll.start();
+
+            return isActive;
+        };
+
+        // Function to limit vertical scrolling after workSection
+        const handleScrollCheck = () => {
+            const isActive = isWorkSectionActive();
+            if (isActive) {
+                scroll.stop(); // Pause vertical scrolling
+                console.log("Vertical scrolling paused in workSection.");
+            } else {
+                scroll.start(); // Resume vertical scrolling
+                console.log("Vertical scrolling resumed outside workSection.");
+            }
+
+            console.log("Scroll CHECK", isActive);
+        };
+
+        // Mouse wheel control for horizontal scrolling
+        const handleMouseWheel = (event: WheelEvent) => {
+            const isActive = isWorkSectionActive();
+            if (!isActive) return;
+
+            // Prevent default vertical scrolling
+            event.preventDefault();
+
+            const delta = -event.deltaY * 2; // Adjust horizontal scroll speed
+            scrollX.scroll.instance.scroll.x -= delta;
+            scrollX.update();
+
+            // Detect scroll boundaries
+            const scrollLeft = scrollX.scroll.instance.scroll.x;
+            const maxScrollLeft = scrollX.scroll.instance.limit.x;
+
+            if (scrollLeft <= 0 && delta < 0) {
+                console.log("Reached LEFT limit.");
+            } else if (scrollLeft >= maxScrollLeft && delta > 0) {
+                console.log("Reached RIGHT limit.");
+            }
+        };
+
+        // Add event listeners
+        console.log("Adding event listeners");
+        window.addEventListener("wheel", handleScrollCheck); // Monitor vertical scrolling
+        workSection?.addEventListener("wheel", handleMouseWheel, {
+            passive: false,
+        });
+
+        // Clean up
+        return () => {
+            scrollX.destroy();
+            window.removeEventListener("scroll", handleScrollCheck);
+            workSection?.removeEventListener("wheel", handleMouseWheel);
+            console.log("Event listeners removed");
+        };
+    }, [app]); */
+
+    /*  useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return;
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+        const workSectionContainer = workSectionContainerRef.current;
+
+        // Locomotive Scroll for horizontal scrolling
+        const scrollX = new LocomotiveScroll({
+            el: workSectionContainer!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5, // Faster horizontal scrolling
+            lerp: 0.1,
+        });
+
+        // Function to check if workSection is active
+        const isWorkSectionActive = () => {
+            if (!workSection) return false;
+
+            const rect = workSection.getBoundingClientRect();
+            return rect.top <= 0 && rect.bottom > window.innerHeight;
+        };
+
+        // Function to limit vertical scrolling after workSection
+        const handleScrollCheck = () => {
+            if (isWorkSectionActive()) {
+                scroll.stop(); // Pause vertical scrolling
+                console.log("Vertical scrolling paused in workSection.");
+            } else {
+                scroll.start(); // Resume vertical scrolling
+                console.log("Vertical scrolling resumed outside workSection.");
+            }
+        };
+
+        // Mouse wheel control for horizontal scrolling
+        const handleMouseWheel = (event: WheelEvent) => {
+            if (!isWorkSectionActive()) return;
+
+            // Prevent default vertical scrolling
+            event.preventDefault();
+
+            const delta = -event.deltaY * 2; // Adjust horizontal scroll speed
+            scrollX.scroll.instance.scroll.x -= delta;
+            scrollX.update();
+
+            // Detect scroll boundaries
+            const scrollLeft = scrollX.scroll.instance.scroll.x;
+            const maxScrollLeft = scrollX.scroll.instance.limit.x;
+
+            if (scrollLeft <= 0 && delta < 0) {
+                console.log("Reached LEFT limit.");
+            } else if (scrollLeft >= maxScrollLeft && delta > 0) {
+                console.log("Reached RIGHT limit.");
+            }
+        };
+
+        // Add event listeners
+        window.addEventListener("scroll", handleScrollCheck); // Monitor vertical scrolling
+        workSection?.addEventListener("wheel", handleMouseWheel, {
+            passive: false,
+        });
+
+        // Cleanup
+        return () => {
+            scrollX.destroy();
+            window.removeEventListener("scroll", handleScrollCheck);
+            workSection?.removeEventListener("wheel", handleMouseWheel);
+        };
+    }, [app]); */
+
+    /* useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return;
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+        const workSectionContainer = workSectionContainerRef.current;
+
+        // Locomotive Scroll for horizontal scrolling
+        const scrollX = new LocomotiveScroll({
+            el: workSectionContainer!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5, // Adjust scrolling speed
+            lerp: 0.1,
+        });
+
+        // Function to check if vertical scroll should stop
+        const isWorkSectionReached = () => {
+            if (!workSection) return false;
+
+            const rect = workSection.getBoundingClientRect();
+            return rect.top <= 0 && rect.bottom >= window.innerHeight;
+        };
+
+        // Pause vertical scrolling when inside workSection
+        const handleScrollCheck = () => {
+            if (isWorkSectionReached()) {
+                scroll.stop(); // Pause vertical scroll
+                console.log("Vertical scrolling paused for workSection.");
+            } else {
+                scroll.start(); // Resume vertical scroll
+                console.log("Vertical scrolling resumed outside workSection.");
+            }
+        };
+
+        // Horizontal scrolling using mouse wheel
+        const handleMouseWheel = (event: WheelEvent) => {
+            if (!isWorkSectionReached()) return;
+
+            // Prevent default vertical scrolling behavior
+            event.preventDefault();
+
+            const delta = -event.deltaY * 2; // Adjust scrolling speed
+            scrollX.scroll.instance.scroll.x -= delta;
+            scrollX.update();
+
+            // Horizontal scroll boundaries
+            const scrollLeft = scrollX.scroll.instance.scroll.x;
+            const maxScrollLeft = scrollX.scroll.instance.limit.x;
+
+            if (scrollLeft <= 0 && delta < 0) {
+                console.log("Reached LEFT limit.");
+            } else if (scrollLeft >= maxScrollLeft && delta > 0) {
+                console.log("Reached RIGHT limit.");
+            }
+        };
+
+        // Add event listeners
+        window.addEventListener("scroll", handleScrollCheck); // Monitor vertical scroll
+        workSection?.addEventListener("wheel", handleMouseWheel, {
+            passive: false,
+        });
+
+        // Cleanup
+        return () => {
+            scrollX.destroy();
+            window.removeEventListener("scroll", handleScrollCheck);
+            workSection?.removeEventListener("wheel", handleMouseWheel);
+        };
+    }, [app]); */
+
+    /*  useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return;
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+        const workSectionContainer = workSectionContainerRef.current;
+
+        // Initialize Locomotive Scroll for horizontal scrolling
+        const scrollX = new LocomotiveScroll({
+            el: workSectionContainer!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5, // Adjust scrolling speed
+            lerp: 0.1,
+        });
+
+        // Function to check if the section is fully visible
+        const isFullyVisible = () => {
+            if (!workSection) return false;
+            const rect = workSection.getBoundingClientRect();
+            return rect.top <= 0 && rect.bottom >= window.innerHeight;
+        };
+
+        const handlePauseScroll = () => {
+            if (isFullyVisible()) {
+                scroll.stop();
+                console.log(
+                    "Vertical scrolling paused for horizontal section."
+                );
+            }
+        };
+
+        const handleResumeScroll = () => {
+            scroll.start();
+            console.log("Vertical scrolling resumed.");
+        };
+
+        const handleMouseWheel = (event: WheelEvent) => {
+            if (!isFullyVisible()) return;
+
+            // Prevent vertical scroll
+            event.preventDefault();
+
+            const delta = -event.deltaY * 2; // Adjust scrolling speed
+            scrollX.scroll.instance.scroll.x -= delta;
+            scrollX.update();
+
+            const scrollLeft = scrollX.scroll.instance.scroll.x;
+            const maxScrollLeft = scrollX.scroll.instance.limit.x;
+
+            if (scrollLeft <= 0 && delta < 0) {
+                console.log("Reached LEFT limit. Resuming vertical scroll...");
+                handleResumeScroll(); // Resume vertical scrolling
+            } else if (scrollLeft >= maxScrollLeft && delta > 0) {
+                console.log("Reached RIGHT limit. Resuming vertical scroll...");
+                handleResumeScroll(); // Resume vertical scrolling
+            }
+        };
+
+        if (workSection) {
+            workSection.addEventListener("mouseenter", handlePauseScroll);
+            workSection.addEventListener("mouseleave", handleResumeScroll);
+            workSection.addEventListener("wheel", handleMouseWheel, {
+                passive: false,
+            });
+        }
+
+        return () => {
+            scrollX.destroy();
+            if (workSection) {
+                workSection.removeEventListener(
+                    "mouseenter",
+                    handlePauseScroll
+                );
+                workSection.removeEventListener(
+                    "mouseleave",
+                    handleResumeScroll
+                );
+                workSection.removeEventListener("wheel", handleMouseWheel);
+            }
+        };
+    }, [app]); */
+
+    /*  useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return () => {};
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+        const workSectionContainer = workSectionContainerRef.current;
+
+        // Initialize Locomotive Scroll for horizontal scrolling
+        const horizontalScroll = new LocomotiveScroll({
+            el: workSectionContainer!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5,
+            lerp: 0.1,
+        });
+
+        setScrollX(horizontalScroll);
+
+        const handleMouseWheel = (event: WheelEvent) => {
+            const { deltaY } = event;
+            const scrollLeft = horizontalScroll.scroll.instance.scroll.x;
+            const maxScrollLeft = horizontalScroll.scroll.instance.limit.x;
+
+            if (isHorizontalScrolling) {
+                event.preventDefault();
+                const scrollSpeed = 3;
+                const delta = -deltaY * scrollSpeed;
+
+                horizontalScroll.scroll.instance.scroll.x -= delta;
+                horizontalScroll.update();
+
+                if (scrollLeft <= 0 && deltaY < 0) {
+                    setIsHorizontalScrolling(false);
+                    scroll.start();
+                } else if (scrollLeft >= maxScrollLeft && deltaY > 0) {
+                    setIsHorizontalScrolling(false);
+                    scroll.start();
+                }
+            } else {
+                const rect = workSection!.getBoundingClientRect();
+                if (rect.top <= 0 && deltaY > 0) {
+                    setIsHorizontalScrolling(true);
+                    scroll.stop();
+                } else if (rect.bottom >= window.innerHeight && deltaY < 0) {
+                    setIsHorizontalScrolling(true);
+                    scroll.stop();
+                }
+            }
+        };
+
+        // Event listeners
+        if (workSection) {
+            workSection.addEventListener("wheel", handleMouseWheel, {
+                passive: false,
+            });
+        }
+
+        // Clean up
+        return () => {
+            horizontalScroll.destroy();
+            if (workSection) {
+                workSection.removeEventListener("wheel", handleMouseWheel);
+            }
+        };
+    }, [app, isHorizontalScrolling]); */
+
+    /* useEffect(() => {
+        if (!app.mainScrollContainer.scroll) return () => {};
+
+        const scroll = app.mainScrollContainer.scroll;
+        const workSection = workSectionRef.current;
+        const workSectionContainer = workSectionContainerRef.current;
+
+        // Initialize Locomotive Scroll for horizontal scrolling
+        const scrollX = new LocomotiveScroll({
+            el: workSectionContainer!,
+            smooth: true,
+            direction: "horizontal",
+            gestureDirection: "horizontal",
+            multiplier: 1.5, // Faster scrolling speed
+            lerp: 0.1,
+        });
+
+        const handleMouseWheel = (event: WheelEvent) => {
+            event.preventDefault();
+
+            // Scroll speed factor
+            const scrollSpeed = 3;
+            const delta = -event.deltaY * scrollSpeed;
+
+            // Update Locomotive Scroll's horizontal position
+            scrollX.scroll.instance.scroll.x -= delta;
+            scrollX.update();
+
+            // Check scroll boundaries
+            const scrollLeft = scrollX.scroll.instance.scroll.x;
+            const maxScrollLeft = scrollX.scroll.instance.limit.x;
+
+            console.log({
+                scrollLeft,
+                maxScrollLeft,
+                // direction: delta > 0 ? "Right (Mouse Down)" : "Left (Mouse Up)",
+            });
+
+            if (scrollLeft <= 0) {
+                scroll.stop();
+                console.log("Reached the LEFT limit.");
+                // Custom behavior for the leftmost limit
+            }
+
+            if (scrollLeft >= maxScrollLeft) {
+                console.log("Reached the RIGHT limit.");
+                scroll.start();
+            }
+        };
+
+        // Event listeners
+        if (workSection) {
+            workSection.addEventListener("wheel", handleMouseWheel, {
+                passive: false,
+            });
+        }
+
+        // Clean up
+        return () => {
+            scrollX.destroy();
+        };
+    }, [app]); */
+
+
+/* "use client";
+
+import { useEffect, useRef } from "react";
+import { useAppDispatch } from "@/context/ContextProvider";
+import { setMainScrollContainer } from "@/context/actions";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
+
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        if (!scrollRef.current) return;
+
+        const scrollContainer = scrollRef.current;
+
+        // Pin the entire scroll container and allow smooth scrolling
+        gsap.to(scrollContainer, {
+            y: () => `-${scrollContainer.scrollHeight - window.innerHeight}`,
+            ease: "none",
+            scrollTrigger: {
+                trigger: scrollContainer,
+                start: "top top",
+                end: () => `+=${scrollContainer.scrollHeight}`,
+                scrub: 1, // Scrub with the scroll to create smooth effect
+                pin: true, // Pin the scroll container in place
+                markers: false, // Disable markers
+            },
+        });
+
+        // Optionally animate elements within the scroll container
+        gsap.utils.toArray(".animate-scroll").forEach((el) => {
+            gsap.fromTo(
+                el,
+                { opacity: 0, y: 100 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top bottom",
+                        end: "top top",
+                        scrub: true,
+                        markers: false,
+                    },
+                }
+            );
+        });
+
+        // Dispatch scroll container ref (optional)
+        dispatch(
+            setMainScrollContainer({
+                ref: scrollRef.current,
+                scroll: null,
+            })
+        );
+
+        return () => {
+            ScrollTrigger.kill(); // Cleanup on unmount
+        };
+    }, [dispatch]);
+
+    return (
+        <div id="smooth-scroll" ref={scrollRef}>
+            {children}
+        </div>
+    );
+};
+
+export default SmoothScroll; */
+
+// pin box-c when it reaches the center of the viewport, for 300px
+
+// if (!scrollRef.current) return;
+
+// const scrollContainer = scrollRef.current;
+
+// // Use GSAP ScrollTrigger to animate smooth scroll with easing
+// let scrollPosition = 0;
+// const smoothScroll = () => {
+//     const scrollHeight = scrollContainer.scrollHeight;
+//     const windowHeight = window.innerHeight;
+
+//     // Update scroll position with smooth lerp
+//     scrollPosition +=
+//         (scrollContainer.scrollTop - scrollPosition) * 0.1; // Lerp factor (smoothness)
+//     scrollContainer.scrollTop = scrollPosition;
+
+//     // Stop the animation when we're near the final position
+//     if (Math.abs(scrollContainer.scrollTop - scrollPosition) > 0.1) {
+//         requestAnimationFrame(smoothScroll);
+//     }
+// };
+
+// // Start smooth scroll on mount
+// requestAnimationFrame(smoothScroll);
+
+// return () => {
+//     // Cleanup function
+// };
+
+/* "use client";
+
+import { useEffect, useRef } from "react";
+import { useAppDispatch } from "@/context/ContextProvider";
+import { setMainScrollContainer } from "@/context/actions";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
+
+const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        if (!scrollRef.current) return;
+
+        const scrollContainer = scrollRef.current;
+
+        // Set smooth scroll with slower animation
+        gsap.to(scrollContainer, {
+            y: () => `-${scrollContainer.scrollHeight - window.innerHeight}`,
+            ease: "power3.out", // Use a slower easing effect for smoother transition
+            duration: 3, // Slow down the scroll duration
+            scrollTrigger: {
+                trigger: scrollContainer,
+                start: "top top",
+                end: () => `+=${scrollContainer.scrollHeight}`,
+                scrub: 0.5, // Increase scrub time for a smoother effect
+                pin: true, // Optionally, pin the scroll container
+                markers: false,
+            },
+        });
+
+        dispatch(
+            setMainScrollContainer({
+                ref: scrollRef.current,
+                scroll: null, // No need for a scroll instance here
+            })
+        );
+
+        return () => {
+            ScrollTrigger.kill(); // Cleanup on unmount
+        };
+    }, [dispatch]);
+
+    return (
+        <div
+            id="smooth-scroll"
+            style={{ scrollBehavior: "smooth" }}
+            ref={scrollRef}
+        >
+            {children}
+        </div>
+    );
+};
+
+export default SmoothScroll; */
+/* "use client";
+export default SmoothScroll; */
+
+
+-----------------------------------------------------------------------------------------------------------------
+"use client";
+
+import { useEffect, useRef } from "react";
+import { useAppDispatch } from "@/context/ContextProvider";
+import { setMainScrollContainer } from "@/context/actions";
+import { gsap } from "gsap";
+
+const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const dispatch = useAppDispatch();
+
+    // useEffect(() => {
+    //     if (!scrollRef.current) return;
+
+    //     // Create a smoother scroll instance
+    //     const smoother = ScrollSmoother.create({
+    //         smooth: 1.5, // Adjust the smoothness
+    //         effects: true, // Allow effects like transforms to work with the smoother
+    //         scrollTarget: scrollRef.current, // The element that will have the smooth scrolling effect
+    //     });
+
+    //     const scrollContainer = scrollRef.current;
+
+    //     // GSAP scroll animation with ScrollTrigger
+    //     gsap.to(scrollContainer, {
+    //         y: () => `-${scrollContainer.scrollHeight - window.innerHeight}`,
+    //         ease: "none",
+    //         scrollTrigger: {
+    //             trigger: scrollContainer,
+    //             start: "top top",
+    //             end: () => `+=${scrollContainer.scrollHeight}`,
+    //             scrub: 1, // Scrub with the scroll to create smooth effect
+    //             pin: true, // Pin the scroll container in place
+    //             markers: false, // Disable markers
+    //         },
+    //     });
+
+    //     // Optionally animate elements within the scroll container
+    //     gsap.utils.toArray(".animate-scroll").forEach((el) => {
+    //         gsap.fromTo(
+    //             el,
+    //             { opacity: 0, y: 100 },
+    //             {
+    //                 opacity: 1,
+    //                 y: 0,
+    //                 scrollTrigger: {
+    //                     trigger: el,
+    //                     start: "top bottom",
+    //                     end: "top top",
+    //                     scrub: true,
+    //                     markers: false,
+    //                 },
+    //             }
+    //         );
+    //     });
+
+    //     // Dispatch scroll container ref (optional)
+    //     dispatch(
+    //         setMainScrollContainer({
+    //             ref: scrollRef.current,
+    //             scroll: smoother,
+    //         })
+    //     );
+
+    //     return () => {
+    //         smoother.kill(); // Cleanup the smoother instance on unmount
+    //         ScrollTrigger.kill(); // Cleanup the ScrollTrigger instances
+    //     };
+    // }, [dispatch]);
+
+    useEffect(function () {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                scrub: 1,
+                pin: true,
+                trigger: scrollRef.current,
+                start: "50% 50%",
+                endTrigger: "#pin-windmill-wrap",
+                end: "bottom 50%",
+            },
+        });
+
+        tl.to("#pin-windmill-svg", {
+            rotateZ: 900,
+        });
+    }, []);
+
+    return (
+        <div id="smooth-scroll" ref={scrollRef}>
+            {children}
+        </div>
+    );
+};
+
+export default SmoothScroll;
+
+import LocomotiveScroll from "locomotive-scroll";
+import "locomotive-scroll/dist/locomotive-scroll.css";
+
+export const SmoothLocoScroll = ({
+    children,
+}: {
+    children: React.ReactNode;
+}) => {
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        const scroll = new LocomotiveScroll({
+            el: scrollRef.current!,
+            smooth: true,
+            multiplier: 1,
+            lerp: 0.1,
+        });
+
+        dispatch(
+            setMainScrollContainer({
+                ref: null,
+                scroll: scroll,
+            })
+        );
+
+        return () => {
+            scroll.destroy();
+        };
+    }, [dispatch]);
+
+    return (
+        <div id="smooth-scroll" ref={scrollRef}>
+            {children}
+        </div>
+    );
+};
+
+-----------------------------------------------------------------------------------------------------------------
+
+/* function Logo() {
+    const [hover, setHover] = useState(false);
+
+    return (
+        <svg
+            id="logo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64.06 32"
+            width={150}
+            height={150}
+            onMouseEnter={() => setHover(true)}
+            onMouseLeave={() => setHover(false)}
+        >
+            <rect
+                id="line1"
+                x="12.31"
+                width="6.78"
+                height="32"
+                style={{
+                    transform: hover
+                        ? "matrix(1,0,0,1,0,0)" // Resets to full size
+                        : "matrix(1,0,0,0.5,0,16)", // Shrinks vertically
+                    transformOrigin: "center bottom",
+                    transition: "transform 0.5s ease",
+                }}
+            />
+            <polygon
+                id="angle1"
+                points="0 32 6.78 32 12.31 0 5.53 0 0 32"
+                style={{
+                    transform: hover
+                        ? "matrix(1,0,0,1.2,-3,0)" // Moves and expands
+                        : "matrix(1,0,0,1,0,0)", // Resets to normal position
+                    transformOrigin: "center bottom",
+                    transition: "transform 0.5s ease",
+                }}
+            />
+            <rect
+                id="line2"
+                x="25.88"
+                width="6.78"
+                height="32"
+                style={{
+                    transform: hover
+                        ? "matrix(1,0,0,0.5,0,16)" // Shrinks vertically
+                        : "matrix(1,0,0,1,0,0)", // Resets to full size
+                    transformOrigin: "center bottom",
+                    transition: "transform 0.5s ease",
+                }}
+            />
+            <polygon
+                id="angle2"
+                points="32.66 32 39.44 32 44.97 0 38.19 0 32.66 32"
+                style={{
+                    transform: hover
+                        ? "matrix(1,0,0,1.2,3,0)" // Moves and expands
+                        : "matrix(1,0,0,1,0,0)", // Resets to normal position
+                    transformOrigin: "center bottom",
+                    transition: "transform 0.5s ease",
+                }}
+            />
+            <rect
+                id="line3"
+                x="44.97"
+                width="6.78"
+                height="32"
+                style={{
+                    transform: hover
+                        ? "matrix(1,0,0,0.5,0,16)" // Shrinks vertically
+                        : "matrix(1,0,0,1,0,0)", // Resets to full size
+                    transformOrigin: "center bottom",
+                    transition: "transform 0.5s ease",
+                }}
+            />
+            <polygon
+                id="angle3"
+                points="57.28 0 51.75 32 58.53 32 64.06 0 57.28 0"
+                style={{
+                    transform: hover
+                        ? "matrix(1,0,0,1.2,-3,0)" // Moves and expands
+                        : "matrix(1,0,0,1,0,0)", // Resets to normal position
+                    transformOrigin: "center bottom",
+                    transition: "transform 0.5s ease",
+                }}
+            />
+        </svg>
+    );
+}
+
+function Lorem() {
+    return (
+        <div className="p-24">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+            beatae optio animi harum fugiat cupiditate perspiciatis unde,
+            eligendi saepe molestias? Placeat eligendi rem nisi, blanditiis
+            assumenda amet praesentium nihil tempora? Animi impedit quas
+            sapiente quasi exercitationem magnam harum deleniti! Adipisci nam
+            odio repudiandae cumque sunt doloremque aspernatur quia animi iste,
+            voluptatum deserunt quaerat, nobis quo accusamus provident voluptas!
+            Ut, non? Accusamus vel mollitia quasi magnam vero quam obcaecati,
+            earum cupiditate quisquam possimus ducimus. Ullam aliquam adipisci
+            alias dolores deserunt dolor quasi? Reiciendis, facilis. Natus ex
+            architecto fugit quos placeat incidunt. Nam architecto voluptatibus
+            assumenda? Cumque neque repellat exercitationem voluptatum odit
+            autem commodi debitis ipsa blanditiis adipisci, aperiam laborum non
+            dignissimos nihil sunt aliquid iure veritatis laboriosam expedita
+            optio. Exercitationem, accusantium! Rem fugiat nostrum, consequatur
+            soluta, corporis unde natus quod molestias optio reiciendis officia.
+            Enim architecto culpa magnam vitae quod quisquam velit! Nobis
+            aspernatur voluptatum, iure at eos obcaecati minus non. Nisi nulla
+            minima excepturi tempore delectus similique optio ex dolorem?
+            Pariatur in omnis ipsam, impedit totam laborum excepturi repellat
+            rem architecto aliquid delectus ipsum voluptate a possimus beatae
+            repellendus provident. Excepturi, quisquam odit, iste perspiciatis
+            fugit quam aut eaque rem rerum debitis perferendis placeat. Eaque
+            commodi tempora labore consequatur, nam, ut perspiciatis sit,
+            deserunt itaque asperiores maxime amet similique dignissimos?
+            Quaerat, praesentium. Reiciendis, rerum quia quibusdam, sint libero
+            non suscipit asperiores, officiis in provident praesentium nam
+            dolores ex delectus blanditiis soluta repudiandae. Incidunt
+            praesentium quo adipisci dolores rem eaque maiores. Fugiat veniam
+            eius perferendis molestiae nemo consequatur, quisquam quam ex
+            laborum voluptates magnam culpa necessitatibus. Porro ratione at
+            neque eligendi officia asperiores sequi corrupti iste nemo,
+            quibusdam in atque? Adipisci? Commodi dignissimos vel autem beatae
+            pariatur laboriosam necessitatibus vitae exercitationem molestias
+            cumque quas excepturi eius, nisi nobis reprehenderit at, perferendis
+            et, voluptates quisquam ad doloribus? Suscipit laudantium nisi minus
+            illo! Aperiam accusamus adipisci voluptas deserunt voluptatem animi
+            tempore porro? Quas commodi omnis eius recusandae ea iusto. In odio
+            excepturi quaerat, doloremque numquam fugit doloribus tenetur
+            veritatis aliquid, voluptas mollitia dicta? Alias quis aliquid
+            repellat, soluta natus ducimus optio dolores, consequuntur
+            repellendus illum eum nobis possimus placeat illo ipsum perspiciatis
+            unde at? Sunt, recusandae amet. Rem id deserunt iusto nemo enim?
+            Omnis ipsum excepturi debitis enim cum maxime consequatur in nemo
+            provident, voluptatum expedita animi cumque atque, porro hic, ullam
+            velit aspernatur nostrum? Quam assumenda repellendus id corrupti
+            porro aut autem. Enim ipsam quae ab nam, magnam ipsa ducimus
+            aspernatur nesciunt, laborum sunt iste sequi impedit omnis ut quidem
+            quam expedita amet fugit delectus porro? Dolorem ea dignissimos
+            recusandae tempora facere. Aliquam ducimus quis inventore accusamus
+            nobis, laboriosam cumque qui beatae ea natus praesentium impedit
+            deleniti iste magni, earum rerum itaque cupiditate? Amet culpa sunt
+            commodi quidem eum accusamus aliquid voluptas! Corrupti omnis
+            eligendi ipsum. Tempore dolor voluptatum sit odit, quam soluta,
+            inventore doloremque molestias, deleniti maiores quaerat placeat
+            facilis reprehenderit nobis. Alias, ea cum sit ipsum voluptate
+            tenetur. Ea, itaque! Similique quis fugit, repudiandae unde
+            obcaecati perferendis illo quidem impedit dignissimos voluptas est
+            dolore mollitia totam fuga quam aperiam laudantium sapiente aliquid.
+            Ea quibusdam est fugit ducimus, necessitatibus molestiae nisi.
+            Deleniti maiores laboriosam eveniet tempore sit, voluptatum omnis
+            repudiandae amet nostrum molestias vero vel porro inventore, nisi
+            corrupti temporibus quas iste! Praesentium harum quasi saepe dicta
+            amet, soluta eaque laboriosam! Consequuntur repellat repudiandae
+            quibusdam cum fugit autem expedita magnam, aut reiciendis omnis
+            voluptate id laudantium, et numquam temporibus sed beatae doloribus.
+            Similique velit facilis ad odit maxime dolores nostrum deleniti.
+            Minima, nam odit. Ad, sequi? Facilis ducimus saepe laudantium id,
+            tenetur maiores praesentium cumque aliquam reprehenderit!
+            Reprehenderit illo et nisi aliquid voluptates consequatur beatae ad.
+            Ad minus cumque quia tempore. Explicabo inventore laudantium
+            repudiandae laborum quam, eum quaerat ipsa nostrum dolorum pariatur
+            ea fuga iure molestias quisquam soluta, natus hic voluptatum neque?
+            Sed aperiam esse eius nulla architecto, quibusdam modi! Fuga vitae
+            ipsam totam laboriosam est facilis reprehenderit blanditiis aut et
+            qui architecto molestias tempora nobis, non beatae quisquam
+            provident eaque, ullam cum obcaecati. Ab dolor error consequuntur
+            quasi iure. Cupiditate, quia, adipisci aliquid nihil quod ipsam
+            expedita molestiae natus libero aut cumque deleniti. Id quod
+            officiis recusandae deserunt cupiditate consectetur, rerum
+            obcaecati? Ab soluta nesciunt tempora eligendi quisquam blanditiis!
+            Sed, ullam. Autem quas sunt, laborum non cum laboriosam minima ea
+            veritatis nobis iusto ut dignissimos deleniti provident tempore
+            rerum voluptatum fugiat, dicta dolorem a odit, asperiores commodi?
+            A, necessitatibus. Minima nemo voluptatum quam magni debitis,
+            reiciendis itaque reprehenderit suscipit perspiciatis alias, ut
+            ipsum hic! Aliquid cumque, quaerat excepturi doloribus veritatis
+            fuga eveniet incidunt beatae accusantium consequuntur reprehenderit
+            architecto explicabo? Rerum ea vero pariatur cumque suscipit
+            reprehenderit hic. Quod molestias iure ratione soluta odio dolore
+            illum unde, earum voluptatibus velit aliquid, laborum, dolores neque
+            quaerat blanditiis voluptates! Culpa, eaque corporis! Placeat,
+            temporibus voluptatum officiis eveniet illo explicabo dolores,
+            consequatur facilis ratione dolor veniam est perspiciatis aperiam.
+            Unde repudiandae labore, hic tempora blanditiis possimus doloribus
+            quisquam veritatis, ea, tenetur rem amet? Explicabo perferendis
+            animi earum modi maiores iste aut dignissimos incidunt. Fugiat
+            deleniti dolorum suscipit possimus ad rem ea delectus! Dolorum
+            voluptatibus sed magni esse, laboriosam beatae soluta. Alias, nobis
+            ad. Ipsum quae hic molestias nisi illo? Excepturi, modi repudiandae
+            dolorum non, reiciendis fugiat commodi voluptatum neque perspiciatis
+            recusandae nihil tenetur expedita laborum eaque iure deleniti. Magni
+            optio suscipit esse eos. Est ullam ipsam sequi dolores corrupti
+            perferendis accusantium sunt, aspernatur iste deleniti nulla id
+            maxime iure veritatis optio fuga. Harum adipisci placeat eligendi
+            velit consequatur? Saepe facilis similique incidunt laborum.
+            Architecto obcaecati fugit, incidunt aut esse placeat, soluta eos,
+            maiores voluptatum ab porro suscipit. Deserunt optio aspernatur,
+            accusantium similique, voluptatibus recusandae omnis, iusto deleniti
+            dolorum non inventore consequuntur suscipit vel? Ut voluptatibus
+            porro, amet doloremque repellendus rem ipsam rerum officiis sint,
+            praesentium quisquam hic cupiditate nostrum inventore, quae
+            obcaecati dicta ducimus. Ullam vel saepe maiores iure harum! Esse,
+            consectetur ipsam. Nostrum commodi nesciunt non optio quae dolore,
+            dolorem est impedit aspernatur tempore, praesentium velit harum quod
+            provident vitae odit? Tempore culpa ipsum sint dolore voluptate,
+            odio velit fugit nulla. Temporibus? Rem facere consequatur fuga ut
+            similique velit atque omnis harum, ex, quasi quas quaerat dolore,
+            distinctio quae quisquam repellendus ea labore animi soluta. Quae
+            dolores enim similique, eius dolore repellendus? Soluta eos at
+            officia, omnis eligendi iste sequi nulla quaerat blanditiis, impedit
+            qui dolores nam accusantium aperiam cupiditate? Quas tempora a eaque
+            neque excepturi sunt, velit quasi architecto sint sed. Ducimus
+            corporis accusamus numquam at dolores maxime ex adipisci minus,
+            repudiandae nulla quis veniam quod eveniet. Aspernatur, esse illum
+            eveniet cum soluta ratione neque eos. Omnis ut placeat sapiente
+            necessitatibus! Vel sequi beatae voluptate explicabo corrupti
+            dolorem, repudiandae voluptatem nulla delectus, non dolore fugiat
+            dolor fugit aliquam cum numquam perspiciatis hic sunt maiores illum
+            in molestiae sint enim odio. A. Enim ipsa fugit officia fuga
+            voluptatem, iusto perferendis ducimus quo odit eligendi illo eius
+            laboriosam? Facere quasi laboriosam officia amet unde voluptatibus
+            accusantium at odio. Reiciendis excepturi iusto possimus ipsa!
+            Veniam aliquid minus commodi quibusdam perspiciatis tempora sed
+            similique incidunt, aspernatur a praesentium quasi officia accusamus
+            odit maiores. Tempore, tenetur. Ratione officiis velit quo,
+            perferendis possimus impedit quisquam nam illum! Exercitationem
+            labore odit maxime consequatur iste laboriosam rerum quidem commodi
+            dolore ullam, error tenetur deserunt ipsa cum nemo dignissimos rem
+            illum. Recusandae est consequatur similique sunt ad praesentium ea
+            aliquam?
+        </div>
+    );
+} */
+
+-----------------------------------------------------------------------------------------------------------------
+"use client";
+
+import React, { useEffect, useRef } from 'react';
+import gsap  from 'gsap';
+import {ScrollTrigger} from 'gsap/dist/ScrollTrigger';
+import {ScrollSmoother} from 'gsap/dist/ScrollSmoother';
+
+// Register the GSAP plugins
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+interface SmoothScrollProps {
+  children: React.ReactNode;
+}
+
+export const SmoothScrollContext = React.createContext<ScrollSmoother | null>(null);
+
+export function SmoothScroll({ children }: SmoothScrollProps) {
+  const smoothWrapperRef = useRef<HTMLDivElement>(null);
+  const smoothContentRef = useRef<HTMLDivElement>(null);
+  const smootherRef = useRef<ScrollSmoother | null>(null);
+
+  useEffect(() => {
+    if (!smoothWrapperRef.current || !smoothContentRef.current) return;
+
+    // Initialize ScrollSmoother
+    smootherRef.current = ScrollSmoother.create({
+      wrapper: smoothWrapperRef.current,
+      content: smoothContentRef.current,
+      smooth: 1.5, // Adjust this value to control smoothness (similar to Locomotive's 'lerp')
+      effects: true,
+      normalizeScroll: true,
+      ignoreMobileResize: true,
+    });
+
+    return () => {
+      if (smootherRef.current) {
+        smootherRef.current.kill();
+      }
+    };
+  }, []);
+
+  return (
+    <SmoothScrollContext.Provider value={smootherRef.current}>
+      <div id="smooth-wrapper" ref={smoothWrapperRef}>
+        <div id="smooth-content" ref={smoothContentRef}>
+          {children}
+        </div>
+      </div>
+    </SmoothScrollContext.Provider>
+  );
+}
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+                {/* <h1
+                    ref={ref}
+                    className={cn(
+                        "text-[9.375vw] leading-[1.1] font-bold w-full text-start relative inline-block translate-0 rotate-0 scale-100 opacity-100 visible transform-none",
+                        "block transition-all duration-[2500ms] opacity-0 leading-[1.4] translate-y-8",
+                        inView && "opacity-100 translate-y-0"
+                    )}
+                >
+                    Crafting
+                    <span className="px-10 lg:bg-gradient-to-r lg:from-[#545cff] lg:via-[#1f2246] lg:to-[#545cff] lg:bg-[length:1600px_100%] lg:bg-clip-text lg:text-transparent lg:animate-gradientMove">
+                        Digital
+                    </span>
+                    <br /> Experiences
+                </h1> */}
+
+---------------------------
+
+
+    /* const fetcher = async (
+        config = { method: "GET" } as {
+            method: METHODS;
+            body?: FormData | object;
+            headers?: object;
+        },
+        newUrl?: string
+    ) => {
+        setIsLoading(true);
+        try {
+            const newConfig = {
+                ...config,
+                headers: {
+                    ...config.headers,
+                    Authorization: `Bearer ${accessToken}`,
+                },
+            };
+            console.log(newConfig);
+            const response = await axiosInstance(newUrl || url, newConfig);
+            setData(response.data);
+            setIsLoading(false);
+            return {
+                status: "success",
+                data: response.data,
+            } as FetcherReturnType;
+        } catch (error: ErrType | unknown) {
+            const errorMessage =
+                (error as AxiosErrorMessageType).response?.data?.message ||
+                "An unknown error occurred";
+            const err = {
+                status: "error",
+                message: errorMessage,
+                error,
+            } as ErrType;
+            setError(err);
+            return err as FetcherReturnType;
+        }
+    }; */
+-------------------------------------
+
+        // fetch("http://localhost:5050/api/v1/work", {
+        //     method: "POST",
+        //     headers: {
+        //         Authorization: `Bearer ${localStorage.getItem("adminToken")}`, // Only pass the token header
+        //         // Do not set `Content-Type` manually for `FormData`
+        //     },
+        //     body: formData,
+        // })
+        //     .then((response) => response.json())
+        //     .then((data) => console.log(data))
+        //     .catch((error) => console.error(error));
+-------------------------------------
+-------------------------------------

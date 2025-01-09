@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "677ea0c11faab7d3b8361386"
+  },
+  "name": "Syed Amir Ali",
+  "email": "admin@gmail.com",
+  "mobile": "01817809999",
+  "password": "$2b$10$0tv.bulXoY0xUUT1vAZXwe06ZU8yR6.YiGrGgb6apB39eGV4qa6b.",
+  "gender": "Male",
+  "photo": null,
+  "status": true,
+  "trash": false,
+  "createdAt": {
+    "$date": "2025-01-08T15:58:57.066Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-08T15:58:57.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677ea0f01faab7d3b8361389"
+  },
+  "name": "Syed Amir Ali",
+  "email": "admin@example.com",
+  "mobile": "01817809999",
+  "password": "$2b$10$EYJz076ncxeiwmtY2N98C.s1gd4CnSSqUMNEqmftFW1yYPuMsI616",
+  "gender": "Male",
+  "photo": null,
+  "status": true,
+  "trash": false,
+  "createdAt": {
+    "$date": "2025-01-08T15:59:44.267Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-08T15:59:44.267Z"
+  },
+  "__v": 0
+}]
