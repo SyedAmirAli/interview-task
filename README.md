@@ -6,7 +6,7 @@ This project includes a **Node.js server** (backend) and a **Next.js frontend**.
 
 -   **`server/`**: Node.js server code and API logic
 -   **`frontend/`**: Next.js application (UI)
--   **`database/*`**: Demo database file in JSON format
+-   **`/server/database/*`**: Demo database file in JSON format
 
 ## Prerequisites
 
@@ -23,4 +23,19 @@ Before running the project, make sure you have the following installed:
 ```bash
 git clone <repository-url>
 cd <project-directory>
+
+```
+
+-   After importing all db collections from /server/database\*
+-   Admin Login '/admin/login'
+
+-   Demo Email & Password
+
+```bash
+admin@example.com
+```
+
+```bash
+12345678
+
 ```
