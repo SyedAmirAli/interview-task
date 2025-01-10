@@ -36,6 +36,49 @@ export default function Initialization() {
             if (workError?.error && homePageItemsError?.error) {
                 console.info("Something Went Wrong, [SERVER_ERR]");
                 console.log({ workError, homePageItemsError });
+
+                // Dispatch Demo works
+                dispatch(
+                    setWorks([
+                        {
+                            _id: "1",
+                            title: "Romans & Partners",
+                            image: "/assets/images/work-1.jpg",
+                            tags: [
+                                { label: "UI/UX Design" },
+                                { label: "Property Portal" },
+                            ],
+                            isLatest: true,
+                        },
+                        {
+                            _id: "2",
+                            title: "Tech SuperPowers",
+                            image: "/assets/images/work-2.jpg",
+                            tags: [
+                                { label: "UI/UX Design" },
+                                { label: "Development" },
+                            ],
+                        },
+                        {
+                            _id: "3",
+                            title: "Alveena Casa",
+                            image: "/assets/images/work-3.jpg",
+                            tags: [
+                                { label: "UI/UX Design" },
+                                { label: "E-Commerce" },
+                            ],
+                        },
+                        {
+                            _id: "4",
+                            title: "Alveena Casa",
+                            image: "/assets/images/work-4.jpg",
+                            tags: [
+                                { label: "UI/UX Design" },
+                                { label: "E-Commerce" },
+                            ],
+                        },
+                    ])
+                );
                 return () => {};
             }
 

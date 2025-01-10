@@ -63,7 +63,7 @@ export default function WorkSection() {
                 {Array.isArray(app.works) &&
                     app.works.map((work) => (
                         <a
-                            key={work.title}
+                            key={work._id}
                             className="snap-start block single-work"
                             href="#"
                         >

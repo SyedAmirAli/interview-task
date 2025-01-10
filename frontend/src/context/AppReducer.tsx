@@ -11,7 +11,9 @@ import {
 } from "./actions";
 
 export const initialState: State = {
-    works: [],
+    works: [
+        /*  */
+    ],
     mainScrollContainer: {
         ref: null,
         scroll: null,
