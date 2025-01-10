@@ -33,9 +33,12 @@ export default function Initialization() {
 
     useEffect(
         function () {
-            if (workError?.error && homePageItemsError?.error) {
+            if (
+                (workError?.error && homePageItemsError?.error) ||
+                workError?.status === "error"
+            ) {
                 console.info("Something Went Wrong, [SERVER_ERR]");
-                console.log({ workError, homePageItemsError });
+                // console.log({ workError, homePageItemsError });
 
                 // Dispatch Demo works
                 dispatch(
@@ -79,6 +82,7 @@ export default function Initialization() {
                         },
                     ])
                 );
+
                 return () => {};
             }
 
@@ -98,7 +102,7 @@ export default function Initialization() {
                 );
             }
         },
-        [works, homePageItems]
+        [works, homePageItems, homePageItemsError, workError]
     );
     return null;
 }

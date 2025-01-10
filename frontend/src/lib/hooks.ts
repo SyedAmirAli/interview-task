@@ -9,7 +9,10 @@ import { destroyAuth, initiateAuth } from "@/context/actions";
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 const assetUrl = process.env.NEXT_PUBLIC_ASSET_URL;
 
-export const asset = (path: string = "") => assetUrl + path;
+export const asset = (path: string = "") => {
+    if (path.startsWith("/assets/images/")) return path;
+    return assetUrl + path;
+};
 
 const axiosInstance = axios.create({
     baseURL: apiUrl,
